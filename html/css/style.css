@@ -42,3 +42,39 @@ img{
     width: 100%;
     text-align: center;
 }
+
+/* header */
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #fff;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+
+#title img{
+    width: auto;
+    height: 20px;
+}
+
+.menu-list{
+    display: flex;
+}
+
+.menu-list-item{
+    margin-left: 40px;
+}
+
+/* footer */
+#footer{
+    padding: 15px 0;
+    background-color: #fff;
+}
+
+#copyright{
+    font-size: 12px;
+    color: #999;
+}
