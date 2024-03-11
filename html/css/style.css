@@ -78,3 +78,38 @@ img{
     font-size: 12px;
     color: #999;
 }
+
+/* content */
+#content{
+    padding-top: 63px;
+}
+
+.section{
+    padding: 80px 15% 100px;
+}
+
+.bg-blue{
+    background-color: #f9fbff;
+}
+
+.section-head{
+    margin-bottom: 50px;
+}
+
+.sectionm-ttl{
+    margin-top: 20px;
+}
+
+.section-ttl .subttl{
+    display: block;
+    padding-bottom: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #c5dbfb;
+}
+
+.section-ttl .ttl{
+    display: block;
+    font-size: 40px;
+    line-height: 1.45;
+}
