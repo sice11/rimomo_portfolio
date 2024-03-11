@@ -132,3 +132,39 @@ img{
     line-height: 1.72;
     color: #777;
 }
+
+/* #profile */
+.profile-img{
+    float: left;
+    width: 40%;
+    margin-right: 4%;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.profile-txt{
+    text-align: left;
+}
+
+.profile-name{
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.sns-list{
+    font-size: 14px;
+}
+
+.sns-list-item{
+    display: inline-block;
+    margin: 1em 0.5em 0;
+}
+
+.sns-list-item:first-of-type{
+    margin-left: 0;
+}
