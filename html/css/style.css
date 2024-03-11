@@ -113,3 +113,22 @@ img{
     font-size: 40px;
     line-height: 1.45;
 }
+
+/* #mv */
+#mv{
+    position: relative;
+    height: 500px;
+    background: url("../images/mv_bg.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.copy{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    font-size: 36px;
+    line-height: 1.72;
+    color: #777;
+}
