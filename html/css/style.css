@@ -168,3 +168,44 @@ img{
 .sns-list-item:first-of-type{
     margin-left: 0;
 }
+
+/* #skill */
+
+.box-outer{
+    display: flex;
+    justify-content: space-between;
+}
+
+#skill .box-outer{
+    width: 56%;
+    margin: 0 auto;
+}
+
+#skill .box{
+    width: 80px;
+}
+
+.skill-name{
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 1.4;
+}
+
+
+/* work */
+#work .box{
+    width: 48%;
+    text-align: left;
+}
+
+.work-ttl{
+    margin-top: 20px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    line-height: 2.0;
+    font-weight: 500;
+}
+
+.work-desc{
+    font-size: 14px;
+}
