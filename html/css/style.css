@@ -278,4 +278,39 @@ img{
     .section-ttl .ttl{
         font-size: 32px;
     }
+
+    #content{
+        padding-top: 0;
+    }
+
+    /* #mv */
+    #mv{
+        height: 100vh;
+    }
+
+    .copy{
+        font-size: 26px;
+        line-height: 1.85;
+    }
+
+
+    /* #profile */
+    .profile-img{
+        clear: left;
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .profile-name{
+        margin-bottom: 10px;
+    }
+
+
+    /* #skill */
+    #skill .box-outer{
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 90%;
+    }
 }
