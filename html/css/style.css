@@ -241,3 +241,41 @@ img{
     line-height: 1.4;
     color: #999;
 }
+
+
+.pc-only{display: block;}
+.sp-only{display: none;}
+
+/* Media Query */
+@media screen and (max-width: 767px) {
+    .pc-only{display: none;}
+    .sp-only{display: block;}
+
+    body{
+        font-size: 14px;
+    }
+
+
+    /* header */
+    #header{
+        padding: 20px 6%;
+    }
+
+    .menu-list-item:not(.menu-list-item--contact){
+        display: none;
+    }
+
+    /* content */
+    .section{
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .section-head{
+        margin-bottom: 40px;
+    }
+
+    .section-ttl .ttl{
+        font-size: 32px;
+    }
+}
