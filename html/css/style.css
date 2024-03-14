@@ -170,6 +170,13 @@ img{
     margin-left: 0;
 }
 
+.sns-icon{
+    width: auto;
+    height: 1.2em;
+    margin-right: 4px;
+    vertical-align: bottom;
+}
+
 /* #skill */
 
 .box-outer{
